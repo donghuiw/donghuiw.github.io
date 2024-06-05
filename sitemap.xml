@@ -29,25 +29,7 @@
   </url>
   
   <url>
-    <loc>https://donghuiw.github.io/box/animation/</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://donghuiw.github.io/box/gallery/</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://donghuiw.github.io/personal/bb/</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -65,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://donghuiw.github.io/personal/about/</loc>
+    <loc>https://donghuiw.github.io/box/animation/</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -74,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://donghuiw.github.io/personal/love/</loc>
+    <loc>https://donghuiw.github.io/life/music/</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -101,7 +83,43 @@
   </url>
   
   <url>
-    <loc>https://donghuiw.github.io/life/music/</loc>
+    <loc>https://donghuiw.github.io/social/link/</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://donghuiw.github.io/personal/about/</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://donghuiw.github.io/personal/bb/</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://donghuiw.github.io/social/fcircle/</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://donghuiw.github.io/personal/love/</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -120,24 +138,6 @@
   
   <url>
     <loc>https://donghuiw.github.io/site/time/</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://donghuiw.github.io/social/fcircle/</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://donghuiw.github.io/social/link/</loc>
     
     <lastmod>2023-03-22</lastmod>
     
