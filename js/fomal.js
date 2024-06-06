@@ -674,7 +674,7 @@ if (document.body.clientWidth > 992) {
         zoom: 0.9,
         borderRadius: 5 + 'px',
         right: 55.6 + 'px',
-        nekoImg: "https://github.com/donghuiw/image/blob/main/tangyuan.jpg",
+        nekoImg: "https://images.weserv.nl/?url=https://github.com/donghuiw/image/blob/main/tangyuan.png?raw=true",
         hoverMsg: "我家汤圆~",
         color: "var(--theme-color)",
         during: 500,
@@ -3164,7 +3164,7 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/dm14.webp);
+    --default-bg: url(https://images.weserv.nl/?url=https://raw.githubusercontent.com/donghuiw/image/main/home_bg.webp);
     --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
     --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
     --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
