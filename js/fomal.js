@@ -1113,13 +1113,14 @@ function changeMouseMode() {
 var now1 = new Date();
 
 function createtime1() {
-  var grt = new Date("05/06/2024 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  var grt = new Date("06/06/2024 00:00:00"); //此处修改你的建站时间或者网站上线时间
   now1.setTime(now1.getTime() + 250);
   var days = (now1 - grt) / 1000 / 60 / 60 / 24;
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到DongHui的Blogs!`
+    `欢迎来到DongHuiBlogs!`,
+    `Future is now 🍭🍭🍭`,
     `
         
 ███████  ██████  ███    ███  █████  ██      ██   ██  █████  ██    ██ ████████ 
@@ -1132,7 +1133,7 @@ function createtime1() {
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©2024 By Fomalhaut",
+    "©2022 By Fomalhaut",
   ];
 
   setTimeout(
@@ -1171,7 +1172,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by DongHui %c 你正在访问",
+      "%c ⚡ Powered by DongHui🥝 %c 你正在访问blog",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -2526,7 +2527,6 @@ if (m == 12 && dd == 6) {//站长生日
   }
 }
 
-
 //传统节日部分
 
 if ((y == 2023 && m == 4 && dd == 5) || (y == 2024 && m == 4 && dd == 4) || (y == 2025 && m == 4 && dd == 4)) {//清明节
@@ -2797,12 +2797,17 @@ class Cursor {
 //     snum = Math.round(seconds);
 //   1 == String(snum).length && (snum = "0" + snum);
 //   let currentTimeHtml = "";
-  
+//   (currentTimeHtml =
+//     hnum < 18 && hnum >= 9
+//       ? `<img class='boardsign' src='https://lskypro.acozycotage.net/Fomalhaut/badge/F小屋-科研摸鱼中.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`
+//       : `<img class='boardsign' src='https://lskypro.acozycotage.net/Fomalhaut/badge/F小屋-下班休息啦.svg' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
+//     document.getElementById("workboard") &&
+//     (document.getElementById("workboard").innerHTML = currentTimeHtml);
 // }
-// 设置重复执行函数，周期1000ms
-setInterval(() => {
-  createtime();
-}, 1000);
+// // 设置重复执行函数，周期1000ms
+// setInterval(() => {
+//   createtime();
+// }, 1000);
 
 /*页脚计时器 end */
 
@@ -2976,7 +2981,7 @@ function setUniverse() {
 
 // 雪花开关
 if (localStorage.getItem("snow") == undefined) {
-  localStorage.setItem("snow", "block");
+  localStorage.setItem("snow", "none");
 }
 document.getElementById("snow").style.display = localStorage.getItem("snow");
 function setSnow() {
@@ -2992,13 +2997,13 @@ function setSnow() {
 
 // 帧率监测开关
 if (localStorage.getItem("fpson") == undefined) {
-  localStorage.setItem("fpson", "0");
+  localStorage.setItem("fpson", "1");
 }
 function fpssw() {
   if (document.getElementById("fpson").checked) {
-    localStorage.setItem("fpson", "0");
-  } else {
     localStorage.setItem("fpson", "1");
+  } else {
+    localStorage.setItem("fpson", "0");
   }
   setTimeout(reload, 600);
 }
@@ -3043,7 +3048,7 @@ function setTrans() {
   target.innerHTML = "透明度 (0%-100%): " + newTransNum + "%";
   localStorage.setItem("transNum", newTransNum);
   curTransMini = newTransNum * 0.95;
-  curTransNum = 0;  // 更新当前透明度
+  curTransNum = newTransNum;  // 更新当前透明度
   document.querySelector('#rang_trans').style.width = curTransMini + "%";
   document.getElementById("transPercent").innerText = `:root{--trans-light: rgba(253, 253, 253, ${newTransNum}%) !important; --trans-dark: rgba(25, 25, 25, ${newTransNum}%) !important} `;
 };
@@ -3149,7 +3154,7 @@ let seovx = "url(https://cdn.seovx.com/?mom=302)";
 let picsum = "url(https://picsum.photos/1920/1080.webp)";
 // 小歪二次元
 // let waiDongman = "url(https://api.ixiaowai.cn/api/api.php)";
-//  小歪高清壁纸11111111111111
+//  小歪高清壁纸
 let waiBizhi = "url(https://api.ixiaowai.cn/gqapi/gqapi.php)";
 // 博天随机
 let btstu = "url(http://api.btstu.cn/sjbz/?lx=suiji)";
@@ -3167,7 +3172,7 @@ if (localStorage.getItem("blogbg") != undefined) {
     --default-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/dm14.webp);
     --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
     --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
-     --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
+    --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
   }`;
 }
 // 切换背景主函数
