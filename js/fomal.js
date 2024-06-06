@@ -299,35 +299,35 @@ document.addEventListener('pjax:complete', showWelcome);
 //----------------------------------------------------------------
 
 /* 微博热搜 start */
-document.addEventListener('pjax:complete', getWeibo);
-document.addEventListener('DOMContentLoaded', getWeibo);
+// document.addEventListener('pjax:complete', getWeibo);
+// document.addEventListener('DOMContentLoaded', getWeibo);
 
-function getWeibo() {
-  fetch('').then(data => data.json()).then(data => {  // 这里要写上你的API!!!
-    let html = '<style>.weibo-new{background:#ff3852}.weibo-hot{background:#ff9406}.weibo-jyzy{background:#ffc000}.weibo-recommend{background:#00b7ee}.weibo-adrecommend{background:#febd22}.weibo-friend{background:#8fc21e}.weibo-boom{background:#bd0000}.weibo-topic{background:#ff6f49}.weibo-topic-ad{background:#4dadff}.weibo-boil{background:#f86400}#weibo-container{overflow-y:auto;-ms-overflow-style:none;scrollbar-width:none}#weibo-container::-webkit-scrollbar{display:none}.weibo-list-item{display:flex;flex-direction:row;justify-content:space-between;flex-wrap:nowrap}.weibo-title{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-right:auto}.weibo-num{float:right}.weibo-hotness{display:inline-block;padding:0 6px;transform:scale(.8) translateX(-3px);color:#fff;border-radius:8px}</style>'
-    html += '<div class="weibo-list">'
-    let hotness = {
-      '爆': 'weibo-boom',
-      '热': 'weibo-hot',
-      '沸': 'weibo-boil',
-      '新': 'weibo-new',
-      '荐': 'weibo-recommend',
-      '音': 'weibo-jyzy',
-      '影': 'weibo-jyzy',
-      '剧': 'weibo-jyzy',
-      '综': 'weibo-jyzy'
-    }
-    for (let item of data) {
-      html += '<div class="weibo-list-item"><div class="weibo-hotness ' + hotness[(item.hot || '荐')] + '">' + (item.hot || '荐') + '</div>'
-        + '<span class="weibo-title"><a title="' + item.title + '"href="' + item.url + '" target="_blank" rel="external nofollow noreferrer" style="color:#a08ed5">' + item.title + '</a></span>'
-        + '<div class="weibo-num"><span>' + item.num + '</span></div></div>'
-    }
-    html += '</div>'
-    document.getElementById('weibo-container').innerHTML = html
-  }).catch(function (error) {
-    console.log(error);
-  });
-}
+// function getWeibo() {
+//   fetch('').then(data => data.json()).then(data => {  // 这里要写上你的API!!!
+//     let html = '<style>.weibo-new{background:#ff3852}.weibo-hot{background:#ff9406}.weibo-jyzy{background:#ffc000}.weibo-recommend{background:#00b7ee}.weibo-adrecommend{background:#febd22}.weibo-friend{background:#8fc21e}.weibo-boom{background:#bd0000}.weibo-topic{background:#ff6f49}.weibo-topic-ad{background:#4dadff}.weibo-boil{background:#f86400}#weibo-container{overflow-y:auto;-ms-overflow-style:none;scrollbar-width:none}#weibo-container::-webkit-scrollbar{display:none}.weibo-list-item{display:flex;flex-direction:row;justify-content:space-between;flex-wrap:nowrap}.weibo-title{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-right:auto}.weibo-num{float:right}.weibo-hotness{display:inline-block;padding:0 6px;transform:scale(.8) translateX(-3px);color:#fff;border-radius:8px}</style>'
+//     html += '<div class="weibo-list">'
+//     let hotness = {
+//       '爆': 'weibo-boom',
+//       '热': 'weibo-hot',
+//       '沸': 'weibo-boil',
+//       '新': 'weibo-new',
+//       '荐': 'weibo-recommend',
+//       '音': 'weibo-jyzy',
+//       '影': 'weibo-jyzy',
+//       '剧': 'weibo-jyzy',
+//       '综': 'weibo-jyzy'
+//     }
+//     for (let item of data) {
+//       html += '<div class="weibo-list-item"><div class="weibo-hotness ' + hotness[(item.hot || '荐')] + '">' + (item.hot || '荐') + '</div>'
+//         + '<span class="weibo-title"><a title="' + item.title + '"href="' + item.url + '" target="_blank" rel="external nofollow noreferrer" style="color:#a08ed5">' + item.title + '</a></span>'
+//         + '<div class="weibo-num"><span>' + item.num + '</span></div></div>'
+//     }
+//     html += '</div>'
+//     document.getElementById('weibo-container').innerHTML = html
+//   }).catch(function (error) {
+//     console.log(error);
+//   });
+// }
 
 /* 微博热搜 end */
 
@@ -1171,7 +1171,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问Fomalhaut🥝の小家",
+      "%c ⚡ Powered by DongHui %c 你正在访问",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -3043,7 +3043,7 @@ function setTrans() {
   target.innerHTML = "透明度 (0%-100%): " + newTransNum + "%";
   localStorage.setItem("transNum", newTransNum);
   curTransMini = newTransNum * 0.95;
-  curTransNum = newTransNum;  // 更新当前透明度
+  curTransNum = 0;  // 更新当前透明度
   document.querySelector('#rang_trans').style.width = curTransMini + "%";
   document.getElementById("transPercent").innerText = `:root{--trans-light: rgba(253, 253, 253, ${newTransNum}%) !important; --trans-dark: rgba(25, 25, 25, ${newTransNum}%) !important} `;
 };
@@ -3164,10 +3164,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://images.weserv.nl/?url=https://raw.githubusercontent.com/donghuiw/image/main/home_bg3.webp?raw=true);
-    --darkmode-bg:url(https://images.weserv.nl/?url=https://github.com/donghuiw/image/blob/main/home_bg_darkmode.jpg?raw=true);
-    --mobileday-bg: url(https://images.weserv.nl/?url=https://raw.githubusercontent.com/donghuiw/image/main/home_bg.webp?raw=true);
-    --mobilenight-bg: url(https://images.weserv.nl/?url=https://raw.githubusercontent.com/donghuiw/image/main/home_bg.webp?raw=true);
+    --default-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/dm14.webp);
+    --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
+    --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
+     --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
   }`;
 }
 // 切换背景主函数
