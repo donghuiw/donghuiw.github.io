@@ -65,15 +65,6 @@
   </url>
   
   <url>
-    <loc>https://donghuiw.github.io/life/movies/</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://donghuiw.github.io/life/music/</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -84,6 +75,15 @@
   
   <url>
     <loc>https://donghuiw.github.io/personal/about/</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://donghuiw.github.io/life/movies/</loc>
     
     <lastmod>2023-03-22</lastmod>
     
