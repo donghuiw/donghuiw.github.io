@@ -2996,9 +2996,9 @@ if (localStorage.getItem("fpson") == undefined) {
 }
 function fpssw() {
   if (document.getElementById("fpson").checked) {
-    localStorage.setItem("fpson", "1");
-  } else {
     localStorage.setItem("fpson", "0");
+  } else {
+    localStorage.setItem("fpson", "1");
   }
   setTimeout(reload, 600);
 }
@@ -3149,7 +3149,7 @@ let seovx = "url(https://cdn.seovx.com/?mom=302)";
 let picsum = "url(https://picsum.photos/1920/1080.webp)";
 // 小歪二次元
 // let waiDongman = "url(https://api.ixiaowai.cn/api/api.php)";
-//  小歪高清壁纸
+//  小歪高清壁纸11111111111111
 let waiBizhi = "url(https://api.ixiaowai.cn/gqapi/gqapi.php)";
 // 博天随机
 let btstu = "url(http://api.btstu.cn/sjbz/?lx=suiji)";
@@ -3164,10 +3164,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://images.weserv.nl/?url=https://raw.githubusercontent.com/donghuiw/image/main/home_bg.webp);
-    --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
-    --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
-    --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
+    --default-bg: url(https://images.weserv.nl/?url=https://raw.githubusercontent.com/donghuiw/image/main/home_bg3.webp?raw=true);
+    --darkmode-bg:url(https://images.weserv.nl/?url=https://github.com/donghuiw/image/blob/main/home_bg_darkmode.jpg?raw=true);
+    --mobileday-bg: url(https://images.weserv.nl/?url=https://raw.githubusercontent.com/donghuiw/image/main/home_bg.webp?raw=true);
+    --mobilenight-bg: url(https://images.weserv.nl/?url=https://raw.githubusercontent.com/donghuiw/image/main/home_bg.webp?raw=true);
   }`;
 }
 // 切换背景主函数
