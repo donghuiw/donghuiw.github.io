@@ -2997,7 +2997,7 @@ function setSnow() {
 
 // 帧率监测开关
 if (localStorage.getItem("fpson") == undefined) {
-  localStorage.setItem("fpson", "1");
+  localStorage.setItem("fpson", "0");
 }
 function fpssw() {
   if (document.getElementById("fpson").checked) {
@@ -3169,10 +3169,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/dm14.webp);
-    --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
-    --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
-    --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
+    --default-bg: url(https://images.weserv.nl/?url=https://raw.githubusercontent.com/donghuiw/image/main/home_bg3.jpg?raw=true);
+    --darkmode-bg:url(https://images.weserv.nl/?url=https://github.com/donghuiw/image/blob/main/home_bg_darkmode.jpg?raw=true);
+    --mobileday-bg: url(https://images.weserv.nl/?url=https://raw.githubusercontent.com/donghuiw/image/main/home_bg3.jpg?raw=true);
+    --mobilenight-bg: url(https://images.weserv.nl/?url=https://github.com/donghuiw/image/blob/main/home_bg_darkmode.jpg?raw=true);
   }`;
 }
 // 切换背景主函数

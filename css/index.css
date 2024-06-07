@@ -6188,7 +6188,7 @@ blockquote.pullquote.right {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.5);
   content: '';
 }
 [data-theme='dark'] #article-container code {
@@ -7701,13 +7701,13 @@ button#go-up:hover #percent {
 
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/springBg.png);
+  background-image: url(https://images.weserv.nl/?url=https://github.com/donghuiw/image/blob/main/Coldbg.png?raw=true);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
 }
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/aurora.webp);
+  background-image: url(https://images.weserv.nl/?url=https://raw.githubusercontent.com/donghuiw/image/main/Coldbg2.webp);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
@@ -7773,7 +7773,7 @@ input#pic-link {
 
 /* heo 加载动画头像 */
 .loading-img {
-  background: url(https://tuchuang.voooe.cn/images/2023/01/02/avatar.webp)
+  background: url(https://images.weserv.nl/?url=https://github.com/donghuiw/image/blob/main/toxiang.jpg?raw=true)
     no-repeat center center;
   background-size: cover;
 }
