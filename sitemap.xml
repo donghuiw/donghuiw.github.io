@@ -2,9 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://donghuiw.github.io/posts/83dcefb7</loc>
+    <loc>https://donghuiw.github.io/charts/</loc>
     
-    <lastmod>2024-06-07</lastmod>
+    <lastmod>2024-06-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://donghuiw.github.io/personal/about/</loc>
+    
+    <lastmod>2024-06-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://donghuiw.github.io/social/link/</loc>
+    
+    <lastmod>2024-06-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -29,88 +47,7 @@
   </url>
   
   <url>
-    <loc>https://donghuiw.github.io/box/animation/</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://donghuiw.github.io/box/gallery/</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://donghuiw.github.io/box/nav/</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://donghuiw.github.io/life/games/</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://donghuiw.github.io/life/movies/</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://donghuiw.github.io/personal/about/</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://donghuiw.github.io/life/music/</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://donghuiw.github.io/personal/bb/</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://donghuiw.github.io/personal/love/</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://donghuiw.github.io/site/census/</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -128,16 +65,7 @@
   </url>
   
   <url>
-    <loc>https://donghuiw.github.io/social/link/</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://donghuiw.github.io/social/fcircle/</loc>
+    <loc>https://donghuiw.github.io/site/census/</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -166,7 +94,7 @@
 
   <url>
     <loc>https://donghuiw.github.io/</loc>
-    <lastmod>2024-06-10</lastmod>
+    <lastmod>2024-06-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -174,21 +102,14 @@
   
   <url>
     <loc>https://donghuiw.github.io/tags/Markdown/</loc>
-    <lastmod>2024-06-10</lastmod>
+    <lastmod>2024-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://donghuiw.github.io/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
-    <lastmod>2024-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://donghuiw.github.io/tags/%E5%8A%A0%E5%AF%86/</loc>
-    <lastmod>2024-06-10</lastmod>
+    <lastmod>2024-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -197,7 +118,7 @@
   
   <url>
     <loc>https://donghuiw.github.io/categories/%E6%BC%94%E7%A4%BA/</loc>
-    <lastmod>2024-06-10</lastmod>
+    <lastmod>2024-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
