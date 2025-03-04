@@ -83,15 +83,6 @@
   </url>
   
   <url>
-    <loc>https://donghuiw.github.io/box/nav/</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://donghuiw.github.io/site/census/</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -102,6 +93,15 @@
   
   <url>
     <loc>https://donghuiw.github.io/site/time/</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://donghuiw.github.io/box/nav/</loc>
     
     <lastmod>2023-03-22</lastmod>
     
